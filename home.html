@@ -11,7 +11,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg sticky-top navbar-default mb-4">
-        <span class="navbar-brand mb-0 h1">Phoenix Contact Badger Puss</span>
+        <span class="navbar-brand mb-0 h1">Phoenix Contact Badger</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,69 +37,19 @@
     <div id="gridStyle3" class="row">
 
         <div class="col">
-            <div id="sideBar" class="container" style="display: none;">
-                <div class="" id="sidebar1">
-                    <div class="md-form mb-4 pink-textarea active-pink-textarea">
-                        <label for="displayDeviceList">Devices Listed:</label>
-                        <textarea id="displayDeviceList" class="md-textarea form-control" rows="6"
-                            readonly>This gets removed if there are any devices able to be listed</textarea>
-                    </div>
-                </div>
-                <div class="container container-grey box-border card">
-                    <p class="h3 mb-3">Unclaim Device</p>
-                    <button class="btn btn-block my-3 btn-primary" type="button" onclick="PRemoveDevice()">Unclaim
-                        Device</button>
-                    <p>Please use the list devices function before unclaiming a device</p>
-                    <input type="text" class="form-control mb-1" id="inputDeviceIDRemove" name="deviceIDRemove"
-                        placeholder="Device ID" />
-                    <div class="md-form mb-4 pink-textarea active-pink-textarea">
-                        <label for="displayResponseFromRemoveID">Response:</label>
-                        <textarea id="displayResponseFromRemoveID" class="md-textarea form-control" rows="1"
-                            readonly></textarea>
-                    </div>
-                </div>
+            <div id="sideBar" class="container container-grey box-border card">
+
             </div>
         </div>
 
-        <div class="col-6">
-            <div id="secure" class="container">
-                <div class="row-fluid justify-content-center">
-                    <div class="span4">
-                        <div class="md-form mb-4 pink-textarea active-pink-textarea">
-                            <label for="displayText">Response:</label>
-                            <textarea id="displayText" class="md-textarea form-control" rows="3"
-                                readonly>Current Device:</textarea>
-                        </div>
-                    </div>
-
-                </div>
+        <div class="col">
+            <div id="secure" class="container container-grey box-border card">
 
                 <div class="row h-100">
-                    <div class="col container-grey container-fluid box-border card">
-                        <div class="container">
-                            <p class="h3 mb-3">List Devices</p>
-                            <button class="btn btn-block my-3 btn-primary" type="button" onclick="PListDevices()">List
-                                Devices</button>
-                        </div>
-                    </div>
-                    <div class="col container-grey container-fluid box-border card">
-                        <div class="container">
-                            <p class="h3 mb-3">Set Active Device</p>
-                            <button class="btn btn-block my-3 btn-primary" type="button"
-                                onclick="setDevice()">Activate</button>
-                            <input type="text" class="form-control mb-1" id="inputDeviceID" name="deviceID"
-                                placeholder="Device ID" />
-                        </div>
-                    </div>
-                    <div class="col container-grey container-fluid box-border card">
-                        <div class="container">
-                            <p><label class="h3 mb-1">Call Function: <input type="text" class="form-control m-1"
-                                        id="inputFunction" name="username" placeholder="Function" /></label></p>
+                    <p class="h3 mb-3">Overview of Badger</p>
+                    <br>
+                    <p class="h5 mb-2"><!--WHAT IT IS, WHY, HOW, ETC--></p>
 
-                            <button class="btn btn-block my-2 btn-primary" type="button"
-                                onclick="PCallFunction()">CallFunction</button>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="row" id="deviceManagementFunctions">
@@ -121,7 +71,8 @@
                 <hr />
                 <ul>
                     <li title="Build: 11">Promotional Website</li>
-                    <li><a href="https://www.phoenixcontact.com/">&copy; <span>2020</span> <span>PHOENIX CONTACT</span></a>
+                    <li><a href="https://www.phoenixcontact.com/">&copy; <span>2020</span> <span>PHOENIX
+                                CONTACT</span></a>
                     </li>
                     <li><a href="mailto:nathorn@phoenixcontact.com">Contact</a></li>
                 </ul>
